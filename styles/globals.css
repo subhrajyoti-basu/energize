@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-color: #FFF6DF
+    }
+
+    h1 {
+
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 60px;
+    }
+
+    h3 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+
+    input,
+    select {
+        @apply p-2 w-full rounded border border-black
+    }
+
+    button[type='Submit'] {
+        background: #FC7618;
+        color: white;
+        border: none;
+        width: 172px;
+        @apply p-2 rounded border border-black;
+    }
+
+    ul {
+        font-weight: 500;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        /* or 125% */
+
+        letter-spacing: 0.2px;
+    }
+
+    h5 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 27px
+    }
+
+}
+
+@layer components{
+    .float{
+        animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+        0% {
+            
+            transform: translatey(0px);
+        }
+        50% {
+            
+            transform: translatey(-30px);
+        }
+        100% {
+            
+            transform: translatey(0px);
+        }
+    }
+}
