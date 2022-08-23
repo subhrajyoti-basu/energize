@@ -19,6 +19,10 @@ export default function Home() {
   }, [])
   return (
     <>
+    <Head>
+      <title>Energize EV Charging Solutions - Home</title>
+      <link rel='shortcut icon' href='/favicon.ico'/>
+    </Head>
       <div className='px-10 max-w-[1238px] mx-auto'>
         <Header
           applink={excuteScroll}

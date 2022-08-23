@@ -29,6 +29,9 @@ function Footer({ applink, ourchargers }) {
                         </a>
                     </div>
                 </div>
+                <div className='flex justify-center mt-5'>
+                    <img className='w-[50%] md:w-[40%]' src='/images/image-company.png'></img>
+                </div>
             </div>
         </>
     );
