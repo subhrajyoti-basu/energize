@@ -33,7 +33,7 @@ function Footer({ applink, ourchargers }) {
                 <div className='text-white px-10 max-w-[1238px] mx-auto flex items-center space-x-4 text-xs'>
                     <Link href={'/privacy_policy'}>Privacy Policy</Link>
                     <Link href={'/refund_policy'}>Refund Policy</Link>
-                    <Link href={'/terms_and_conditions'}>Terms and Condition</Link>
+                    <Link href={'/terms_and_conditions'}>Terms and Conditions</Link>
                 </div>
                 <div className='flex justify-center mt-5'>
                     <img className='w-[50%] md:w-[40%]' src='/images/image-company.png'></img>
