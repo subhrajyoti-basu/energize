@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      listStyleType: {
+        roman: 'lower-roman'
+      }
     },
   },
   plugins: [],
